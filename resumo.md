@@ -1,6 +1,6 @@
 ### DIO | RESUMO GIT & GITHUB 
 
-#### • 💻 [DOCUMENTAÇÃO GITHUB] (https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github)
+#### • 💻[DOCOMENTAÇÃO GITHUB] (https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github)
 
 Algumas funções do Git par versionamento de código:
 
