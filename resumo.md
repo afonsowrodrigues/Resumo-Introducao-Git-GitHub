@@ -43,7 +43,23 @@ Algumas funções do Git par versionamento de código:
     • MIXED (vem por padrão) -> Adiciona os arquivos na árvore de trabalho como untracked files;
     • HARD - Ignora os arquivos contidos na último commit (apaga os arquivos que estavam na pasta, restaura para o estado anterior)
 
-• GIT REFLOG -> Mostra o status detalhado dos commits
+• GIT REFLOG -> Mostra o status detalhado dos commits;
+
+• GIT RM "NOME DO ARQUIVO" -> Exclui um arquivo da pasta;
+
+• GIT RM -R "NOME DA PASTA -> Exclui uma pasta inteira
+
+• GIT PUSH -U ORIGIN MAIN -> Faz o upload do diretório do local fisico para o remoto
+
+
+#### • 🦉 PRIMEIROS PASSOS
+
+ 1. Cria o repositório no GitHub
+ 2. Conecta o repositório com git init
+ 3. Adiciona todos os arquivos necessários para o commit
+ 4. Verifica com git status
+ 5. Faz o commit
+ 6. Faz o Git push
 
 #### • 📊 CRIANDO UMA TABELA
 
