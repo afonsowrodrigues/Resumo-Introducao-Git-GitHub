@@ -51,6 +51,7 @@ Algumas funções do Git par versionamento de código:
 
 • GIT PUSH -U ORIGIN MAIN -> Faz o upload do diretório do local fisico para o remoto
 
+• GIT PULL -> Puxa as alterações feitas online para o reposositorio local mesclando as alteracoes;
 
 #### • 🦉 PRIMEIROS PASSOS
 
@@ -60,6 +61,40 @@ Algumas funções do Git par versionamento de código:
  4. Verifica com git status
  5. Faz o commit
  6. Faz o Git push
+
+ #### • 👾 BRANCHS
+
+ Branchs são novos ramos dos projetos que criamos, caso criarmos uma nova branch e depois novos commits, estes reportarão à nova branch.
+
+ • GIT CHECKOUT -B "nome" -> Cria uma nova branch;
+
+ • ECHO "#TEXTO-1" > TEXTO-1 -> Cria um arquivo txt com o texto informado no #.
+
+ • GIT CHECKOUT "Nome da branch" -> Retorna para o nome da branch informada;
+
+ • GIT BRANCH -V -> Mostra os últimos commits de cada branch;
+
+ • GIT BRANCH -> Mostra todas as branchs de um projeto;
+
+ • GIT BRANCH -D "nome da branch" -> Exclui a branch citada;
+
+ • GIT MERGE -> Mescla as alterações de branchs;
+
+• GIT FITCH ORIGIN MAIN -> Baixa as alterações na brenach remota sem mesclar;
+
+• GIT DIFF MAIN ORIGIN/MAIN -> Compara as diferenças entre as branchs main e a origun/main;
+
+• GIT MERGE ORIGIN/MAIN -> Mescla as alterações;
+
+• GIT CLONE URL --BRANCH "NOME DA BRANCH" --SINGLE-BRANCH -> Clona apenas uma branch do repositório;
+
+• GIT STASH - Volta arquivos deletados/modificados em um local arquivado para uso poterior, importante que eles ficam ocultos nos commits;
+
+• GIT STASH LIST -> Lista os arquivos que estão arquivados;
+
+• GIT STASH POP -> Exclui os arquivos que estavam arquivados;
+
+• GIT STASH APPLY -> Mantém os arquivos arquivados para uso posterior.
 
 #### • 📊 CRIANDO UMA TABELA
 
